@@ -1,0 +1,24 @@
+{
+  "gemini": {
+    "mode": "google",
+    "endpoint": "https://your-gemini-endpoint.example/api",
+    "api_key_env": "GEMINI_API_KEY",
+    "mock_response_template": "Use the first two images for face identity; use scene for clothing, pose and background; produce single-line prompt for seedream."
+  },
+  "seedream": {
+    "endpoint": "https://api.wavespeed.ai/api/v3/bytedance/seedream-v4/edit",
+    "api_key_env": "SEEDREAM_API_KEY",
+    "default_size": "2880*4096"
+  },
+  "io": {
+    "faces_dir": "FACE",
+    "scenes_dir": "SCENE",
+    "output_dir": "OUTPUT",
+    "gemini_prompt_file": "gemini_user_prompt.txt",
+    "result_format": "png"
+  },
+  "behavior": {
+    "pause_between_requests_s": 0.8,
+    "max_retries": 3
+  }
+}
