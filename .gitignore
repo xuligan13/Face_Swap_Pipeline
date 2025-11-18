@@ -1,0 +1,30 @@
+# Python
+__pycache__/
+*.py[cod]
+*.pyo
+*.pyd
+env/
+venv/
+ENV/
+.Python
+*.sqlite3
+
+# dotenv
+.env
+
+# OS
+.DS_Store
+Thumbs.db
+
+# Output
+OUTPUT/
+output/
+*.png
+*.jpg
+*.jpeg
+
+# IDE / Editor
+.vscode/
+.idea/
+*.sublime-project
+*.sublime-workspace
