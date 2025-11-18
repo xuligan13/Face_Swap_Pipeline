@@ -90,7 +90,7 @@ SEEDREAM_API_KEY=your_key_here
 File:
 
 ```
-gemini_user_prompt.txt
+gemini_user_prompt.txt(You can use an existing one if the results in the examples are satisfactory)
 ```
 
 Controls Gemini → Seedream prompt generation.
@@ -237,7 +237,7 @@ SEEDREAM_API_KEY=ваш_ключ
 Файл:
 
 ```
-gemini_user_prompt.txt
+gemini_user_prompt.txt(Можешь использовать существующий,если удолетворяют результаты на прмерах)
 ```
 
 ---
